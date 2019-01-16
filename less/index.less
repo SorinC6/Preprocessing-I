@@ -136,6 +136,13 @@ table {
     border-spacing: 0;
 }
 
+//------------------------------------Less variable and mixins
+//Variable
+@main-color: #E9ECEF;
+@table-row-collor: #F2F2F2;
+@footer-collor: #808080;
+@btn-backgroud: white;
+@btn-text: black;
 /* Set every element's box-sizing to border-box */
 
 * {
@@ -177,7 +184,7 @@ header {
 //
 // ----------INTRO Top Content Section---------
 .top-content {
-    background: #E9ECEF;
+    background: @main-color;
     img {
         max-width: 200px;
     }
@@ -189,6 +196,11 @@ header {
             padding: 15px 30px;
             cursor: pointer;
             border-radius: 10px;
+            color: @btn-text;
+            &:hover {
+                background: @btn-text;
+                color: @btn-backgroud
+            }
         }
     }
     .head h1 {
@@ -247,29 +259,30 @@ table {
         padding: 8px;
     }
     tr:nth-child(even) {
-        background-color: #F2F2F2;
+        background-color: @table-row-collor ;
     }
 }
+
 //------------end---------
 //
 //------------contact form section-------
-.contact-section{
-    display:flex;
+.contact-section {
+    display: flex;
     justify-content: space-around;
-    margin:20px 0px;
+    margin: 20px 0px;
 }
+
 //
 //------------Footer section----------
-
-footer{
-    max-width:100%;
+footer {
+    max-width: 100%;
     height: 7rem;
-    background: #808080;
-
-    p{
-        display:flex;
-        padding-top:25px;
+    background: @footer-collor;
+    p {
+        display: flex;
+        padding-top: 25px;
         justify-content: center;
     }
 }
+
 //-----------end------------
