@@ -150,3 +150,30 @@ header nav a {
   text-decoration: none;
   color: black;
 }
+.top-content {
+  background: #E9ECEF;
+}
+.top-content img {
+  width: 200px;
+}
+.top-content .head,
+.top-content .bottom {
+  padding: 35px;
+}
+.top-content .head button,
+.top-content .bottom button {
+  margin-top: 20px;
+  padding: 15px 30px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.top-content .head h1 {
+  font-size: 6rem;
+}
+.top-content .head h4 {
+  margin-top: 10px;
+  font-size: 2rem;
+}
+hr {
+  width: 85rem;
+}
