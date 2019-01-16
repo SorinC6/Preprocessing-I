@@ -140,6 +140,10 @@ body {
   max-width: 900px;
   margin: 0 auto;
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
 header {
   display: flex;
   justify-content: flex-end;
@@ -154,7 +158,7 @@ header nav a {
   background: #E9ECEF;
 }
 .top-content img {
-  width: 200px;
+  max-width: 200px;
 }
 .top-content .head,
 .top-content .bottom {
