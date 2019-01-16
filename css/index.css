@@ -219,3 +219,13 @@ table th {
 table tr:nth-child(even) {
   background-color: #F2F2F2;
 }
+footer {
+  max-width: 100%;
+  height: 7rem;
+  background: #808080;
+}
+footer p {
+  display: flex;
+  padding-top: 25px;
+  justify-content: center;
+}
