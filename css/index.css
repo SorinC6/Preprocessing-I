@@ -181,3 +181,23 @@ header nav a {
 hr {
   width: 85rem;
 }
+.middle-content {
+  display: flex;
+  justify-content: space-between;
+}
+.middle-content .content {
+  margin-top: 20px;
+  width: 48%;
+}
+.middle-content .content h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.middle-content .content h3 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.middle-content div dt {
+  border: 1px solid #E8E8E8;
+  padding: 20px;
+}
