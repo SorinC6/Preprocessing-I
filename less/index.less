@@ -143,6 +143,8 @@ table {
 @footer-collor: #808080;
 @btn-backgroud: white;
 @btn-text: black;
+
+@font-stack:'Slabo 27px', serif;
 /* Set every element's box-sizing to border-box */
 
 * {
@@ -153,6 +155,7 @@ html,
 body {
     height: 100%;
     font-size: 62.5%;
+    font-family: @font-stack;
 }
 
 .container {
@@ -164,6 +167,10 @@ body {
 img {
     max-width: 100%;
     height: auto;
+}
+
+p{
+    line-height: 1.25;
 }
 
 // ------------ Navigation ------

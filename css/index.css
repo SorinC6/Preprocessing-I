@@ -134,6 +134,7 @@ html,
 body {
   height: 100%;
   font-size: 62.5%;
+  font-family: 'Slabo 27px', serif;
 }
 .container {
   font-size: 1.6rem;
@@ -143,6 +144,9 @@ body {
 img {
   max-width: 100%;
   height: auto;
+}
+p {
+  line-height: 1.25;
 }
 header {
   display: flex;
